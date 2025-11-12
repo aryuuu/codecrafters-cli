@@ -11,7 +11,7 @@
       let
         pkgs = nixpkgs.legacyPackages.${system};
         
-        version = "v39";
+        version = "v44";
         
         # Map Nix system to CodeCrafters platform/arch naming
         platformArch = {
@@ -23,7 +23,7 @@
         
         # Hashes for each platform (you'll need to update these)
         hashes = {
-          x86_64-linux = "sha256-o3wJ9kMtcnaiQNq/JdTH0/oN8ZWhcwRujkNERj7VxX0=";
+          x86_64-linux = "sha256-eljFyDVf0nLoTQ4ErOYSoQhafLYSIw+dr5DX51NUpgw=";
           aarch64-linux = "sha256-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=";
           x86_64-darwin = "sha256-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=";
           aarch64-darwin = "sha256-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=";
